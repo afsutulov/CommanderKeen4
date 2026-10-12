@@ -6,8 +6,6 @@ A native Go port of the complete **Commander Keen 4 v1.4 EGA** episode for Windo
 
 The original levels, EGA artwork, sprites, animations, fonts, menus, physics, enemy logic, difficulty modes, items, story, ending and built-in demonstrations are retained. Rendering uses the original 320×200, 16-colour image, sharp nearest-neighbour scaling and the 4:3 display proportions of a period CRT. Music and effects use the original audio resources, a Go translation of Nuked OPL3 and PC-speaker synthesis.
 
-This is native game logic translated into Go, not a DOSBox launcher or an x86 emulator. No original DOS executable is included or used. Graphics, maps, sound and engine tables are compressed into Go source and built into the executable. The application icon is separate from the original in-game artwork.
-
 ## Screenshots
 
 Actual frames rendered by this Go engine, enlarged without smoothing:
@@ -105,6 +103,6 @@ This validation checks the Go translation against Omnispeak. It is not a claim t
 
 ## Licenses and credits
 
-The combined source project is **GPL-3.0-or-later**; see [LICENSE](LICENSE). The restored engine is based on [Omnispeak](https://github.com/sulix/omnispeak), originally GPL-2.0-or-later, by David Gow and contributors. Nuked OPL3 is LGPL-2.1-or-later. Ebitengine, Oto, modernc.org/libc and the build dependencies retain their respective licenses. Attribution and license texts are included in [licenses](licenses/).
+The combined source project is **GPL-3.0-or-later**; see [LICENSE](LICENSE).
 
-Commander Keen and the original game graphics, levels and audio remain the property of their original copyright holders. Their rights are separate from the source-code license; see [GAME-DATA.txt](licenses/GAME-DATA.txt) and the preserved original README.
+Commander Keen and the original game graphics, levels and audio remain the property of their original copyright holders.
