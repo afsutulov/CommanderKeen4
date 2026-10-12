@@ -1,4 +1,4 @@
-# Commander Keen 4 — Secret of the Oracle (Go)
+# Commander Keen 4 — Secret of the Oracle
 
 [Русский](README_RU.md)
 
